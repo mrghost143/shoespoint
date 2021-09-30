@@ -22,7 +22,7 @@ if(index >= 0){
   newCart.splice(index,1);
   
 }else{
-  console .warn('cant find id')
+  console.warn('cant find id')
 }
   return {...state ,cart: newCart};
  
