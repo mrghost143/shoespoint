@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer">
         {/* left */}
         <div className="footer_left">
-          <h1 className="footer_logo">Shoe Point.</h1>
+          <h1 className="footer_logo">Shoes Point.</h1>
           <p className="desc">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
             labore voluptatem! Quo fuga, a inventore deleniti quibusdam

@@ -11,7 +11,7 @@ function Nav() {
         <div className="nav_container">
           <div className="left">
             <Link to="/">
-              <h1 className="logo">Shoe Point.</h1>
+              <h1 className="logo">Shoes Point.</h1>
             </Link>
           </div>
           <div className="center">
