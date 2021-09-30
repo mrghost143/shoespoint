@@ -1,0 +1,89 @@
+.footer {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.footer_left,
+.footer_center,
+.footer_right {
+  flex: 1;
+  padding: 20px;
+}
+
+/* left */
+.footer_left {
+  display: flex;
+  flex-direction: column;
+}
+.footer_logo {
+  font-weight: bold;
+  text-align: start;
+  cursor: pointer;
+  font-size: 24px;
+  color: crimson;
+}
+.desc {
+  margin: 20px 0;
+  font-size: 16px;
+  cursor: context-menu;
+}
+
+.socail_con {
+  display: flex;
+}
+
+.social_icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: white;
+  display: grid;
+  place-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.social_icon > i {
+  font-size: 20px;
+}
+.fb {
+  background-color: #3b5999;
+}
+.gmail {
+  background-color: red;
+}
+.inst {
+  background-color: #e4405f;
+}
+.whatsapp {
+  background-color: green;
+}
+
+/* center */
+.link_title {
+  margin-bottom: 30px;
+  font-size: 24px;
+  cursor: context-menu;
+}
+.footer_center > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_center > ul > li {
+  width: 50%;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+/* footer right */
+.contact {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.contact > i {
+  margin-right: 10px;
+}

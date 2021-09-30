@@ -1,0 +1,31 @@
+.productlist {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+.filter_title {
+  margin: 20px;
+}
+
+.filter_con {
+  display: flex;
+  justify-content: space-between;
+}
+.filter {
+  margin: 20px;
+}
+
+.filter_text {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.filter > select {
+  padding: 10px 20px;
+  margin-right: 20px;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+}

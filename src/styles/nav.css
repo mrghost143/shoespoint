@@ -1,0 +1,120 @@
+nav {
+  height: 70px;
+  display: flex;
+  top: 0;
+  align-items: center;
+
+  position: sticky;
+  z-index: 10;
+  background-color: rgb(255, 200, 80);
+  border-bottom: 1px solid #fff;
+}
+
+.nav_container {
+  padding: 10px 20px;
+  display: flex;
+  width: 100%;
+  max-width: 1300px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.left,
+.center,
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+.left {
+  justify-content: flex-start;
+}
+.center {
+  justify-content: center;
+}
+.right {
+  justify-content: flex-end;
+}
+
+.search_con {
+  border: 0.5px solid lightgrey;
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+  padding: 2px 0px;
+  width: 200px;
+  height: 30px;
+}
+.search_input {
+  border: none;
+  margin-right: 0;
+  display: flex;
+  background: transparent;
+
+  justify-content: flex-start;
+  width: 80%;
+}
+.search_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  cursor: pointer;
+}
+.logo {
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+  color: crimson;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: crimson; */
+}
+.menu_item {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  color: #222;
+  text-transform: uppercase;
+  text-align: center;
+
+  font-weight: 500;
+  position: relative;
+
+  transition: all 0.5s ease-out;
+}
+.menu_item:hover {
+  transform: scale(1.1);
+}
+.cart_count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+
+  background-color: crimson;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 10px;
+  font-weight: 400;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+.search_icon > i {
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
+}
+.cart-1 {
+  border-radius: 50%;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  background-color: yellowgreen;
+}
